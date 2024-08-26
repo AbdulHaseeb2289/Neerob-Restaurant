@@ -1,0 +1,280 @@
+.header {
+    font-family: Arial, sans-serif;
+  }
+  
+  .top-bar {
+    background-color: #3B82F6;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .contact-info span {
+    margin-right: 15px;
+  }
+  
+  .nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #E0E7FF;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color: #2563EB;
+    font-weight: bold;
+  }
+  
+  .bird-logo {
+    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+  }
+  
+  nav a {
+    margin: 0 15px;
+    color: #2563EB;
+    text-decoration: none;
+  }
+  
+  .actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .reservation-btn, .order-btn {
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: 1px solid #2563EB;
+    background-color: white;
+    color: #2563EB;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .order-btn {
+    background-color: #2563EB;
+    color: white;
+  }
+  
+  .order-btn span {
+    font-size: 12px;
+  }
+  .menu-section {
+    text-align: center;
+    padding: 50px;
+    background-color: #F3F4F6;
+  }
+  
+  .menu-section h1 {
+    color: #2563EB;
+    font-size: 36px;
+  }
+  
+  .menu-section p {
+    color: #6B7280;
+    margin: 20px 0;
+  }
+  
+  .menu-categories {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  
+  .menu-button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: 1px solid #2563EB;
+    background-color: white;
+    color: #2563EB;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .menu-button:hover, .menu-button.active {
+    background-color: #2563EB;
+    color: white;
+  }
+
+  .taco-menu-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #F3F4F6;
+  }
+  
+  .taco-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .taco-items {
+    max-width: 50%;
+    margin-left: 20px;
+  }
+  
+  .taco-item {
+    margin-bottom: 30px;
+    color: #2563EB;
+  }
+  
+  .taco-item h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .sizes span {
+    margin-right: 10px;
+    font-size: 14px;
+    color: #6B7280;
+  }
+  
+  .taco-item p {
+    margin: 10px 0;
+    color: #6B7280;
+  }
+  
+  .price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2563EB;
+  }
+
+  .menu-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: #F3F4F6;
+  }
+  
+  .menu-column {
+    width: 45%;
+  }
+  
+  .menu-item {
+    margin-bottom: 30px;
+    color: #2563EB;
+  }
+  
+  .menu-item h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .sizes span {
+    font-size: 14px;
+    color: #6B7280;
+  }
+  
+  .menu-item p {
+    margin: 10px 0;
+    color: #6B7280;
+  }
+  
+  .price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2563EB;
+  }
+
+  .footer {
+    background-color: #2563EB;
+    color: #fff;
+    padding: 40px 20px;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .footer-content h2 {
+    font-size: 36px;
+  }
+  
+  .highlight {
+    font-style: italic;
+  }
+  
+  .schedule-button {
+    background-color: #fff;
+    color: #2563EB;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .footer-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .footer-logo h3 {
+    margin-bottom: 10px;
+  }
+  
+  .social-icons i {
+    font-size: 20px;
+    margin-right: 15px;
+    cursor: pointer;
+  }
+  
+  .newsletter-signup {
+    display: flex;
+    align-items: center;
+  }
+  
+  .newsletter-signup input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+  }
+  
+  .newsletter-signup button {
+    background-color: #fff;
+    color: #2563EB;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .footer-links {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+  
+  .footer-links ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-links li {
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    font-size: 14px;
+  }
